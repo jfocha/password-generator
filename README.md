@@ -10,9 +10,9 @@ A website that generates a random password based on user criteria.
 * JS
 
 ## Website
-https://jfocha.github.io/horiseon/
+https://jfocha.github.io/password-generator/
 
 ## Contribution
 Made with ❤️ by UC Berkeley & Joseph Focha
 
-![alt text](./assets/images/full-webpage.png)
+![alt text](./webpage.png)
