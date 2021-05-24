@@ -12,7 +12,7 @@ function generatePassword() {
     var lower = 'abcdefghijklmnopqrstuvwxyz';
     var upper = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
     var number = '0123456789';
-    var special = '.+*?[^]$(){}=!|:-';
+    var special = ' !"#$%&()*+,-./:;<=>?@[\]^_`{|}~';
 
     //Gather user criteria.
     var lowerCase = window.confirm("Would you like lower case letters in your password?");
@@ -52,7 +52,6 @@ function generatePassword() {
 
   } else {
     //Incorrect password length. Restart.
-    //window.alert("Please enter a number between 8 and 128.");
     generatePassword();
   }
   
